@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab_3_Average_Units_Shipped_By_Employee
+</name>
+</assembly>
+<members>
+<member name="T:Lab_3_Average_Units_Shipped_By_Employee.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lab_3_Average_Units_Shipped_By_Employee.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lab_3_Average_Units_Shipped_By_Employee.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Lab_3_Average_Units_Shipped_By_Employee.frmAverageUnitsShippedByEmployee.InputValidation(System.String)">
+ <summary>
+ Validates user input for the number of units
+ </summary>
+ <param name="userInput"></param>
+ <returns></returns>
+</member>
+<member name="M:Lab_3_Average_Units_Shipped_By_Employee.frmAverageUnitsShippedByEmployee.CalculateEmployeeAverage(System.Int32[0:,0:],System.Int32)">
+ <summary>
+ Calculates the average units shipped for an employee
+ </summary>
+ <param name="inputArray"></param>
+ <param name="index"></param>
+ <returns></returns>
+</member>
+<member name="M:Lab_3_Average_Units_Shipped_By_Employee.frmAverageUnitsShippedByEmployee.CalculateCompanyAverage(System.Int32[0:,0:])">
+ <summary>
+ Calculates the company average
+ </summary>
+ <param name="unitsArray"></param>
+ <returns></returns>
+</member>
+<member name="M:Lab_3_Average_Units_Shipped_By_Employee.frmAverageUnitsShippedByEmployee.ResetForm">
+ <summary>
+ Resets Form to its initial state
+ </summary>
+</member>
+<member name="M:Lab_3_Average_Units_Shipped_By_Employee.frmAverageUnitsShippedByEmployee.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Click event of the btnEnter button that validates user input, displays number of units shipped,
+ calculates employees' averages and the company average
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab_3_Average_Units_Shipped_By_Employee.frmAverageUnitsShippedByEmployee.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Click event of the Reset button that resets the form using the subroutine
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Lab_3_Average_Units_Shipped_By_Employee.frmAverageUnitsShippedByEmployee.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Click event of the Exit button that exits the form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
